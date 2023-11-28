@@ -109,3 +109,51 @@ input::placeholder{
     max-width: 22px; 
     margin-right: 5px;
 }
+
+.artigos {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding: 20px;
+    border: 1px solid var(--background-color);
+    border-radius: 10px;
+    background-color: var(--effect-color);
+    overflow: hidden;
+    display: flex;
+}
+
+.textos {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    text-align: justify;
+}
+
+.artigos h2 {
+    color: var(--font-color);
+}
+
+.artigos a {
+    color: var(--font-color);
+    font-weight: bold;
+}
+
+.artigos p {
+    opacity: 40%;
+    font-family: 'Roboto Mono';
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.artigos img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.data {
+    margin-top: 90px;
+}
