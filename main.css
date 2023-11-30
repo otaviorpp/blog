@@ -121,6 +121,9 @@ input::placeholder{
     background-color: var(--effect-color);
     overflow: hidden;
     display: flex;
+    text-align: justify;
+    max-width: 800px; /* Ajuste conforme necessário */
+    padding: 20px;
 }
 
 .textos {
