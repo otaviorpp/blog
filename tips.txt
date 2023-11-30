@@ -1,0 +1,9 @@
+JAVASCRIPT{
+    codigo js para procurar artigos e projetos na pasta com a palavra pesquisada
+
+    menu lateral fixo
+}
+
+PÁGINAS {
+    mudar layout do home para caber os artigos escritos por inteiro
+}
